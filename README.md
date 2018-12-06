@@ -2,7 +2,7 @@
 # ICD Code Search Tool
 
 Frequently when working on HIT related code I need to have a way to lookup ICD codes. 
-Decided to write a quick demo app that would provide a REST api for doing the searches.
+Needed a demo app for SpringBoot and Swagger so decided to write this app to serve as an internal dev tool and example.
 
 By default the app uses an embedded H2 database persisting to disk. DB can be changed in `application.properties`
 
